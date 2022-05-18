@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Jack",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "onl.gcm.jack.App",
+            "projectName": "jack",
+            "vmArgs": "-Dspring.profiles.active=development",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
